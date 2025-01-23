@@ -38,7 +38,7 @@ var x = setInterval(function () {
 
   if (distance > 0) {
     // Si aún no ha llegado el momento, actualiza el mensaje o texto.
-    document.getElementById("countdown").textContent = "Tu carta estará disponible pronto...";
+    document.getElementById("countdown").textContent = "¡Tu nueva carta ya está disponible!";
   } else {
     // Si el temporizador ha terminado, muestra un mensaje específico.
     clearInterval(x); // Detiene el temporizador
